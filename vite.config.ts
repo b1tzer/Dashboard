@@ -41,6 +41,7 @@ export default defineConfig({
     outDir: process.env.VITE_APP_BUILD_MODE === 'crx' ? 'crx' : 'dist'
   },
   server: {
+    host: '0.0.0.0',
     proxy: {
       '/api': {
         target: 'http://kongfandong.cn',

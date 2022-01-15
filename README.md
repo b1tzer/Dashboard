@@ -4,6 +4,11 @@
 # Howdz Dashboard
 
 基于`Vue3`, `Typescript`, `Vite`的一个完全自定义配置的浏览器起始页
+
+## Changelog
+- 删除百度搜索引擎，添加 fsou 作为默认搜索引擎
+- 创建 [Docker 镜像](https://hub.docker.com)
+
 ## Document
 
 - [中文](https://howdz.vercel.app)

@@ -3,6 +3,12 @@ export default {
   formData: {
     engineList: [
       {
+        name: 'fsou',
+        link: 'https://fsou.cc/search?q=',
+        iconType: 'local',
+        iconPath: 'https://cdn.fsou.cc/static/assets/favicon.ico'
+      },
+      {
         name: 'Bing-CN',
         link: 'https://cn.bing.com/search?q=',
         iconType: 'local',
@@ -13,12 +19,6 @@ export default {
         link: 'https://cn.bing.com/search?ensearch=1&q=',
         iconType: 'local',
         iconPath: 'https://s.kongfandong.cn/img/icons/bing-en.svg'
-      },
-      {
-        name: '百度',
-        link: 'https://www.baidu.com/s?wd=',
-        iconType: 'local',
-        iconPath: 'https://s.kongfandong.cn/img/icons/baidu.svg'
       },
       {
         name: '有道词典',
